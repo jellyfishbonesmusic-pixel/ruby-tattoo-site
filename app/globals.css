@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+:root {
+  --ruby-black: #080607;
+  --ruby-ink: #141012;
+  --ruby-burgundy: #4b1220;
+  --ruby-mauve: #7d4252;
+  --ruby-gold: #c7a45d;
+  --ruby-cream: #f2e4cf;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 15% 12%, rgba(125, 66, 82, 0.28), transparent 30rem),
+    radial-gradient(circle at 86% 8%, rgba(199, 164, 93, 0.12), transparent 22rem),
+    linear-gradient(180deg, #080607 0%, #160d10 45%, #080607 100%);
+  color: var(--ruby-cream);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.22;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 38px 38px;
+  mask-image: linear-gradient(to bottom, black, transparent 85%);
+}
+
+::selection {
+  background: rgba(199, 164, 93, 0.35);
+  color: #fff8eb;
+}
+
+.font-display {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.ornate-panel {
+  position: relative;
+  border: 1px solid rgba(199, 164, 93, 0.42);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.055), transparent 38%),
+    rgba(15, 10, 12, 0.78);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42), inset 0 0 0 1px rgba(242, 228, 207, 0.05);
+}
+
+.ornate-panel::before,
+.ornate-panel::after {
+  content: "";
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  border-color: rgba(199, 164, 93, 0.72);
+  pointer-events: none;
+}
+
+.ornate-panel::before {
+  top: 12px;
+  left: 12px;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+
+.ornate-panel::after {
+  right: 12px;
+  bottom: 12px;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.lace-divider {
+  background-image: repeating-linear-gradient(90deg, transparent 0 11px, rgba(199, 164, 93, 0.35) 11px 12px), linear-gradient(90deg, transparent, rgba(199, 164, 93, 0.55), transparent);
+  background-size: 100% 1px, 100% 1px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-lace {
+  background-image:
+    radial-gradient(circle at center, rgba(199, 164, 93, 0.18) 0 1px, transparent 2px),
+    repeating-linear-gradient(90deg, transparent 0 28px, rgba(242, 228, 207, 0.09) 28px 29px),
+    repeating-linear-gradient(135deg, transparent 0 18px, rgba(199, 164, 93, 0.08) 18px 19px);
+  background-size: 42px 42px, 112px 112px, 64px 64px;
+  mask-image: radial-gradient(circle at center, black 0%, transparent 78%);
+}
+
+.hero-frame {
+  border: 1px solid rgba(199, 164, 93, 0.36);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.05), transparent 28%),
+    radial-gradient(circle at center, rgba(75, 18, 32, 0.2), rgba(8, 6, 7, 0.18));
+  box-shadow:
+    0 30px 90px rgba(0, 0, 0, 0.34),
+    inset 0 0 0 1px rgba(242, 228, 207, 0.05);
+}
+
+.hero-frame::before,
+.hero-frame::after {
+  content: "";
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  pointer-events: none;
+  border-color: rgba(199, 164, 93, 0.76);
+}
+
+.hero-frame::before {
+  left: 14px;
+  top: 14px;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  box-shadow: -7px -7px 0 -6px rgba(242, 228, 207, 0.48);
+}
+
+.hero-frame::after {
+  right: 14px;
+  bottom: 14px;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  box-shadow: 7px 7px 0 -6px rgba(242, 228, 207, 0.48);
+}
+
+.gold-text {
+  color: var(--ruby-gold);
+}
+
+.section-shell {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.masonry {
+  column-count: 1;
+  column-gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masonry {
+    column-count: 3;
+  }
+}

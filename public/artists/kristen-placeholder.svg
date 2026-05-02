@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Kristen Klepak portrait placeholder">
+  <rect width="800" height="1000" fill="#12080b"/>
+  <rect x="48" y="48" width="704" height="904" fill="#31121a" stroke="#c7a45d" stroke-width="8"/>
+  <circle cx="400" cy="360" r="150" fill="#0b0708" stroke="#c7a45d" stroke-width="6"/>
+  <path d="M235 820 C260 640 540 640 565 820" fill="#0b0708" stroke="#8d4453" stroke-width="18"/>
+  <path d="M245 160 C360 90 440 90 555 160" fill="none" stroke="#c7a45d" stroke-width="5"/>
+  <text x="400" y="905" text-anchor="middle" fill="#f2e4cf" font-size="58" font-family="Georgia">Kristen</text>
+</svg>

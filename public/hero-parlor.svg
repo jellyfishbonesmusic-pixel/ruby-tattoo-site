@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Moody gothic tattoo parlor placeholder">
+  <defs>
+    <linearGradient id="wall" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1a0b0f"/>
+      <stop offset="0.48" stop-color="#4b1220"/>
+      <stop offset="1" stop-color="#12080b"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="50%" cy="30%" r="42%">
+      <stop offset="0" stop-color="#f1c46d" stop-opacity=".78"/>
+      <stop offset=".4" stop-color="#c07a3b" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="lace" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M0 40 C20 0 60 0 80 40 C60 80 20 80 0 40Z" fill="none" stroke="#14080b" stroke-width="3" opacity=".55"/>
+      <circle cx="40" cy="40" r="8" fill="#0b0607" opacity=".55"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#wall)"/>
+  <rect width="1600" height="1000" fill="url(#lace)" opacity=".32"/>
+  <rect x="92" y="90" width="300" height="520" fill="#080607" opacity=".86"/>
+  <rect x="122" y="120" width="240" height="460" fill="none" stroke="#c7a45d" stroke-width="10" opacity=".68"/>
+  <rect x="1210" y="96" width="250" height="420" fill="#090607" opacity=".84"/>
+  <rect x="1238" y="124" width="194" height="364" fill="none" stroke="#c7a45d" stroke-width="8" opacity=".62"/>
+  <path d="M0 710 C240 650 370 805 565 735 C810 646 950 650 1170 735 C1350 805 1470 708 1600 760 L1600 1000 L0 1000Z" fill="#090607"/>
+  <ellipse cx="805" cy="698" rx="260" ry="55" fill="#2a1016"/>
+  <rect x="580" y="612" width="455" height="95" rx="42" fill="#2c1219"/>
+  <rect x="520" y="675" width="575" height="108" rx="46" fill="#170b0f"/>
+  <path d="M560 704 C660 636 950 635 1055 704" fill="none" stroke="#8d4453" stroke-width="38" stroke-linecap="round"/>
+  <circle cx="800" cy="268" r="240" fill="url(#lamp)"/>
+  <path d="M760 84 L840 84 L820 176 L780 176Z" fill="#12080b" stroke="#c7a45d" stroke-width="5"/>
+  <circle cx="800" cy="198" r="31" fill="#f1c46d" opacity=".74"/>
+  <g fill="none" stroke="#c7a45d" stroke-width="5" opacity=".7">
+    <path d="M695 362 H905"/>
+    <path d="M800 258 V468"/>
+    <path d="M740 315 C792 350 808 350 860 315"/>
+    <path d="M740 415 C792 380 808 380 860 415"/>
+  </g>
+</svg>
