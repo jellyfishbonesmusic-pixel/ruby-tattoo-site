@@ -22,7 +22,7 @@ export default function Home() {
               <p className="mt-4 text-xl leading-8 text-[#f2e4cf]/76">{siteData.shopVibe.text}</p>
             </div>
             <div className="grid gap-3 sm:grid-cols-3">
-              {siteData.shopVibe.images.map((image, index) => (
+              {siteData.shopVibe.images.map((image) => (
                 <figure
                   key={image.src}
                   className="group relative min-h-56 overflow-hidden rounded-sm border border-[#c7a45d]/28 bg-[linear-gradient(135deg,#2b1017,#080607)] shadow-[0_18px_54px_rgba(0,0,0,0.32)] sm:min-h-72"
@@ -35,9 +35,6 @@ export default function Home() {
                     aria-label={image.alt}
                   />
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent,rgba(8,6,7,0.55))]" />
-                  <figcaption className="absolute bottom-4 left-4 right-4 border-t border-[#c7a45d]/35 pt-3 text-xs font-bold uppercase tracking-[0.18em] text-[#f2e4cf]/78">
-                    Parlor Detail {index + 1}
-                  </figcaption>
                 </figure>
               ))}
             </div>
