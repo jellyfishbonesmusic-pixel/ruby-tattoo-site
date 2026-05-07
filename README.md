@@ -21,46 +21,48 @@ lib/siteData.ts
 
 Update these values first:
 
-- `business.bookingUrl`: replace `BOOKEDIN_URL_HERE` with the real Bookedin URL.
+- `business.bookingUrl`
 - `business.phone`, `business.address`, `business.instagram`, and `business.hours`.
 - Artist bios, specialties, Instagram URLs, and booking URLs.
 - FAQ answers and artist portfolio image paths.
 
-## Replace Hero or Logo Images
+## Update Hero and Shop Images
 
-The homepage hero is ready for a real shop photo at:
-
-```txt
-public/shop/hero-placeholder.jpg
-```
-
-The editable path is in `lib/siteData.ts` under `hero.image`. If that file is missing, the site shows a gothic burgundy/black gradient fallback.
-
-The text logo can later be replaced with an image at:
+The homepage hero image is currently:
 
 ```txt
-public/logo/ruby-tattoo-logo.png
+public/shop/shop-1.jpg
 ```
 
-The future logo path is stored in `lib/siteData.ts` under `hero.logoImage`.
+The editable path is in `lib/siteData.ts` under `hero.image`. If that image is missing, the site shows a gothic burgundy/black gradient fallback.
 
-## Replace Artist Photos
+The "Inside the Parlor" photo strip uses:
 
-Artist photo placeholders live in:
+```txt
+public/shop/shop-1.jpg
+public/shop/shop-2.jpg
+public/shop/shop-3.jpg
+```
+
+Those image paths are also controlled in `lib/siteData.ts`.
+
+## Update Artist Photos
+
+Artist portraits live in:
 
 ```txt
 public/artists/
 ```
 
-Add final artist photos to that folder, then update each artist's `photo` value in `lib/siteData.ts`.
+Update each artist's `photo` value in `lib/siteData.ts` if you want to swap portraits later.
 
 Example:
 
 ```ts
-photo: "/artists/kristen.jpg"
+photo: "/artists/kristen-klepak.jpg"
 ```
 
-## Replace Gallery Images
+## Update Portfolio Images
 
 Artist portfolio image paths are organized by artist in:
 
@@ -76,7 +78,7 @@ public/artists/lorenzo/
 public/artists/gracy/
 ```
 
-Then replace the placeholder paths in that artist's `portfolio` array.
+Then update that artist's `portfolio` array.
 
 Example:
 
@@ -88,7 +90,7 @@ portfolio: [
 
 Use `tall: true` for portrait images and `tall: false` for landscape images.
 
-The main `/gallery` page is automatically built from each artist's `portfolio` images and includes filters for All, Kristen Klepak, Lorenzo Diaz, and Gracy Minor.
+The main `/gallery` page is automatically built from each artist's `portfolio` images and includes filters for all three artists.
 
 ## Artist Pages
 

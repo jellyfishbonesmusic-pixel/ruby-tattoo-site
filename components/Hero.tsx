@@ -8,7 +8,6 @@ export function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          // Replace /shop/hero-placeholder.jpg in siteData.ts when the real shop header photo is ready.
           backgroundImage: `linear-gradient(180deg, rgba(8, 6, 7, 0.48), rgba(8, 6, 7, 0.88)), radial-gradient(circle at 50% 35%, rgba(199, 164, 93, 0.22), transparent 22rem), url('${hero.image}'), linear-gradient(135deg, #080607 0%, #4b1220 48%, #12080b 100%)`
         }}
       />

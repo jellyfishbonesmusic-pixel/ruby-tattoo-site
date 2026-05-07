@@ -14,7 +14,7 @@ export function ArtistCard({ artist }: ArtistCardProps) {
       <div className="aspect-[4/5] overflow-hidden border-b border-[#c7a45d]/25 bg-[#1f1518]">
         <img
           src={artist.photo}
-          alt={`${artist.name} portrait placeholder`}
+          alt={`${artist.name} portrait`}
           className="h-full w-full object-cover opacity-88 transition duration-500 group-hover:scale-105 group-hover:opacity-100"
         />
       </div>

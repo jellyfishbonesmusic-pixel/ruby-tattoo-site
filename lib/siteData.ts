@@ -17,10 +17,7 @@ export const siteData = {
     bookingUrl: "https://bookedin.com/book/ruby-tattoo"
   },
   hero: {
-    // Replace this with a real shop photo later. Put the file at public/shop/hero-placeholder.jpg.
-    image: "/shop/hero-placeholder.jpg",
-    // Optional future logo path. When the image exists, the Header/Hero can be swapped to use it.
-    logoImage: "/logo/ruby-tattoo-logo.png",
+    image: "/shop/shop-1.jpg",
     logoLines: ["Ruby", "Tattoo"],
     tagline: "Custom tattooing, antique charm, and oddities.",
     badges: ["Award-winning artists", "Custom work in many styles", "Walk-ins when available"]
@@ -29,7 +26,6 @@ export const siteData = {
     title: "Inside the Parlor",
     text: "A calm, antique, witchy studio filled with custom work, oddities, and warm vintage details.",
     images: [
-      // Replace these with real shop photos later. Put files in public/shop/.
       { src: "/shop/shop-1.jpg", alt: "Ruby Tattoo vintage sofa and parlor wall" },
       { src: "/shop/shop-2.jpg", alt: "Ruby Tattoo antique wall decor and parlor chairs" },
       { src: "/shop/shop-3.jpg", alt: "Ruby Tattoo neon open sign in the shop window" }
@@ -69,7 +65,6 @@ export const siteData = {
       instagram: "https://www.instagram.com/kristen_x_tattoos",
       bookingUrl: "https://bookedin.com/book/ruby-tattoo",
       portfolio: [
-        // Replace or add Kristen's tattoo photos here.
         { src: "/artists/kristen/work-1.jpg", alt: "Color dragon tattoo by Kristen Klepak", tall: true },
         { src: "/artists/kristen/work-2.jpg", alt: "Floral head and neck tattoo by Kristen Klepak", tall: false },
         { src: "/artists/kristen/work-3.jpg", alt: "Color koi hand tattoo by Kristen Klepak", tall: true },
@@ -89,7 +84,6 @@ export const siteData = {
       instagram: "https://www.instagram.com/lorenz2573",
       bookingUrl: "https://bookedin.com/book/ruby-tattoo",
       portfolio: [
-        // Replace or add Lorenzo's tattoo photos here.
         { src: "/artists/lorenzo/work-1.jpg", alt: "Blue cartoon tattoo by Lorenzo Diaz", tall: true },
         { src: "/artists/lorenzo/work-2.jpg", alt: "Green cartoon tattoo by Lorenzo Diaz", tall: true },
         { src: "/artists/lorenzo/work-3.jpg", alt: "Red and pink cartoon tattoo by Lorenzo Diaz", tall: true },
@@ -109,7 +103,6 @@ export const siteData = {
       instagram: "https://www.instagram.com/tattoo_pariah",
       bookingUrl: "https://bookedin.com/book/ruby-tattoo",
       portfolio: [
-        // Replace or add Gracy's tattoo photos here.
         { src: "/artists/gracy/work-1.jpg", alt: "Color dolphin tattoo by Gracy Minor", tall: true },
         { src: "/artists/gracy/work-2.jpg", alt: "Fine line food tattoo by Gracy Minor", tall: true },
         { src: "/artists/gracy/work-3.jpg", alt: "Color swordfish tattoo by Gracy Minor", tall: true },
@@ -117,12 +110,6 @@ export const siteData = {
         { src: "/artists/gracy/work-5.jpg", alt: "Fine line hummingbird tattoo by Gracy Minor", tall: true }
       ]
     }
-  ],
-  // Shop-wide placeholders can stay here for studio, oddities, or interior photos.
-  shopGallery: [
-    { src: "/gallery/gallery-02.svg", alt: "Shop interior placeholder", tall: false },
-    { src: "/gallery/gallery-04.svg", alt: "Oddities display placeholder", tall: false },
-    { src: "/gallery/gallery-08.svg", alt: "Ornate parlor placeholder", tall: true }
   ],
   faqs: [
     {

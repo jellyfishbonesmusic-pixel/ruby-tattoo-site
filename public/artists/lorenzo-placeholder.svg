@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Lorenzo Diaz portrait placeholder">
-  <rect width="800" height="1000" fill="#0d0809"/>
-  <rect x="48" y="48" width="704" height="904" fill="#241016" stroke="#c7a45d" stroke-width="8"/>
-  <circle cx="400" cy="350" r="148" fill="#070506" stroke="#c7a45d" stroke-width="6"/>
-  <path d="M220 815 C268 620 532 620 580 815" fill="#070506" stroke="#7d4252" stroke-width="18"/>
-  <path d="M310 150 L400 98 L490 150 L400 202Z" fill="none" stroke="#c7a45d" stroke-width="6"/>
-  <text x="400" y="905" text-anchor="middle" fill="#f2e4cf" font-size="58" font-family="Georgia">Lorenzo</text>
-</svg>

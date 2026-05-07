@@ -47,7 +47,7 @@ export default async function ArtistPage({ params }: ArtistPageProps) {
 
           <div className="ornate-panel mt-8 grid gap-8 rounded-sm p-6 sm:p-10 lg:grid-cols-[0.82fr_1.18fr] lg:items-center">
             <div className="overflow-hidden border border-[#c7a45d]/30 bg-[#1f1518]">
-              <img src={artist.photo} alt={`${artist.name} portrait placeholder`} className="aspect-[4/5] h-full w-full object-cover" />
+              <img src={artist.photo} alt={`${artist.name} portrait`} className="aspect-[4/5] h-full w-full object-cover" />
             </div>
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.28em] text-[#c7a45d]">{artist.role}</p>
@@ -73,9 +73,7 @@ export default async function ArtistPage({ params }: ArtistPageProps) {
         </section>
 
         <section className="section-shell py-16">
-          <SectionHeading eyebrow="Portfolio" title={`${artist.name}'s Work`}>
-            Placeholder paths are already organized for this artist. Replace them in the artist portfolio array when final tattoo photos are ready.
-          </SectionHeading>
+          <SectionHeading eyebrow="Portfolio" title={`${artist.name}'s Work`} />
           <PortfolioGrid
             images={artist.portfolio.map((image) => ({
               ...image,
