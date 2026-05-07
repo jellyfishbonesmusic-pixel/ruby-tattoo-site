@@ -28,13 +28,13 @@ export default function Home() {
                   className="group relative min-h-56 overflow-hidden rounded-sm border border-[#c7a45d]/28 bg-[linear-gradient(135deg,#2b1017,#080607)] shadow-[0_18px_54px_rgba(0,0,0,0.32)] sm:min-h-72"
                 >
                   <div
-                    className="absolute inset-0 bg-cover bg-center opacity-80 transition duration-500 group-hover:scale-105 group-hover:opacity-100"
+                    className="absolute inset-0 bg-cover bg-center opacity-100 transition duration-500 group-hover:scale-105"
                     style={{
-                      backgroundImage: `linear-gradient(180deg, rgba(8,6,7,0.18), rgba(8,6,7,0.68)), url('${image.src}'), radial-gradient(circle at 50% 34%, rgba(199,164,93,0.2), transparent 14rem), linear-gradient(135deg, #4b1220, #080607)`
+                      backgroundImage: `linear-gradient(180deg, rgba(8,6,7,0.04), rgba(8,6,7,0.22)), url('${image.src}'), radial-gradient(circle at 50% 34%, rgba(199,164,93,0.12), transparent 14rem), linear-gradient(135deg, #4b1220, #080607)`
                     }}
                     aria-label={image.alt}
                   />
-                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent,rgba(8,6,7,0.55))]" />
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_42%,rgba(8,6,7,0.18))]" />
                 </figure>
               ))}
             </div>
@@ -49,7 +49,7 @@ export default function Home() {
               <div>
                 <p className="mb-3 text-sm font-bold uppercase tracking-[0.28em] text-[#c7a45d]">The Parlor</p>
                 <h2 className="font-display text-4xl font-semibold text-[#fff4df] sm:text-5xl">
-                  Antique warmth, custom work, and a little mystery.
+                  Antique warmth, custom work, and a welcoming atmosphere.
                 </h2>
               </div>
               <div className="space-y-5 text-2xl leading-9 text-[#f2e4cf]/78">

@@ -24,7 +24,7 @@ export const siteData = {
   },
   shopVibe: {
     title: "Inside the Parlor",
-    text: "A calm, antique, witchy studio filled with custom work, oddities, and warm vintage details.",
+    text: "A calm, vintage-inspired studio filled with custom tattoos, curated oddities, and timeless character.",
     images: [
       { src: "/shop/shop-1.jpg", alt: "Ruby Tattoo vintage sofa and parlor wall" },
       { src: "/shop/shop-2.jpg", alt: "Ruby Tattoo antique wall decor and parlor chairs" },
@@ -53,7 +53,7 @@ export const siteData = {
     { label: "Contact", href: "/#contact" }
   ],
   about:
-    "Ruby Tattoo is a calm, open, and welcoming tattoo shop with a vintage antique witchy vibe. The studio blends custom tattooing with the feeling of an old parlor: dark walls, ornate frames, oddities, tarot details, soft lighting, and a relaxed atmosphere where clients can feel comfortable.\n\nOur artists create custom work across many tattoo styles, from delicate pieces to bold statement tattoos. Ruby Tattoo is also home to award-winning artists, giving clients a professional experience without the cold or intimidating shop feeling.\n\nAlongside tattooing, we also carry a rotating collection of oddities, curiosities, wet specimens, taxidermy, and other strange little treasures.",
+    "Ruby Tattoo is a calm, open, and welcoming tattoo shop with a vintage antique feel. The studio blends custom tattooing with the atmosphere of an old parlor: dark walls, ornate frames, curated decor, soft lighting, and a relaxed setting where clients can feel comfortable.\n\nOur artists create custom work across many tattoo styles, from delicate pieces to bold statement tattoos. Ruby Tattoo is also home to award-winning artists, giving clients a professional experience without the cold or intimidating shop feeling.\n\nAlongside tattooing, we also carry a rotating collection of oddities, curiosities, wet specimens, taxidermy, and other unique treasures.",
   artists: [
     {
       name: "Kristen Klepak",
