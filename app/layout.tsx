@@ -3,8 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Ruby Tattoo | Custom Tattoos in Marine City, MI",
-  description:
-    "Ruby Tattoo is a calm, welcoming tattoo shop in Marine City, Michigan offering custom tattoos, walk-ins when available, and oddities."
+  description: "Ruby Tattoo is a Marine City studio known for fine tattooing, vintage atmosphere, and curated curiosities."
 };
 
 export default function RootLayout({

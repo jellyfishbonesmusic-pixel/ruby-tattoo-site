@@ -1,7 +1,7 @@
 export const siteData = {
   business: {
     name: "Ruby Tattoo",
-    tagline: "Custom tattoos, walk-ins when available, and oddities.",
+    tagline: "Professional tattooing, vintage atmosphere, and curated oddities.",
     phone: "(810) 676-5307",
     address: "6738 River Rd, Marine City, MI 48039",
     instagram: "https://www.instagram.com/ruby_tattoo_inks",
@@ -19,12 +19,12 @@ export const siteData = {
   hero: {
     image: "/shop/shop-1.jpg",
     logoLines: ["Ruby", "Tattoo"],
-    tagline: "Custom tattooing, antique charm, and oddities.",
-    badges: ["Award-winning artists", "Custom work in many styles", "Walk-ins when available"]
+    tagline: "Custom Tattooing & Curiosities",
+    badges: ["Professional tattoo artists", "Vintage-inspired studio", "Walk-ins when available"]
   },
   shopVibe: {
     title: "Inside the Parlor",
-    text: "A calm, vintage-inspired studio filled with custom tattoos, curated oddities, and timeless character.",
+    text: "Vintage textures, warm lighting, curated oddities, and a tattoo studio designed to feel creative and personal.",
     images: [
       { src: "/shop/shop-1.jpg", alt: "Ruby Tattoo vintage sofa and parlor wall" },
       { src: "/shop/shop-2.jpg", alt: "Ruby Tattoo antique wall decor and parlor chairs" },
@@ -33,16 +33,16 @@ export const siteData = {
   },
   whyRuby: [
     {
-      title: "Award-Winning Artists",
-      text: "Custom tattooing from artists recognized for their work."
+      title: "Relaxed Atmosphere",
+      text: "A tattoo experience that feels unhurried, comfortable, and easy to settle into."
     },
     {
-      title: "Calm, Open Studio",
-      text: "A relaxed appointment experience without the cold intimidating shop feeling."
+      title: "Curated Aesthetic",
+      text: "A vintage-inspired tattoo studio with antique textures, warm lighting, and a strong visual identity."
     },
     {
-      title: "Oddities & Curiosities",
-      text: "A rotating collection of strange little treasures, taxidermy, wet specimens, and curiosities."
+      title: "Artists With Range",
+      text: "From bold statement pieces to more personal designs, each artist brings a distinct style to their tattooing."
     }
   ],
   nav: [
@@ -53,14 +53,14 @@ export const siteData = {
     { label: "Contact", href: "/#contact" }
   ],
   about:
-    "Ruby Tattoo is a calm, open, and welcoming tattoo shop with a vintage antique feel. The studio blends custom tattooing with the atmosphere of an old parlor: dark walls, ornate frames, curated decor, soft lighting, and a relaxed setting where clients can feel comfortable.\n\nOur artists create custom work across many tattoo styles, from delicate pieces to bold statement tattoos. Ruby Tattoo is also home to award-winning artists, giving clients a professional experience without the cold or intimidating shop feeling.\n\nAlongside tattooing, we also carry a rotating collection of oddities, curiosities, wet specimens, taxidermy, and other unique treasures.",
+    "Ruby Tattoo combines professional custom tattooing with a relaxed, vintage-inspired atmosphere. The studio is designed to feel creative, comfortable, and personal without losing the professionalism clients expect.\n\nDark walls, ornate frames, warm lighting, and collected decor give the space its character, while the artists focus on thoughtful design and strong execution across a wide range of tattoo styles.\n\nAlongside tattooing, the shop keeps a small rotating collection of oddities and curiosities that add to the studio's personality.",
   artists: [
     {
       name: "Kristen Klepak",
       slug: "kristen-klepak",
       role: "Owner / Tattoo Artist",
       photo: "/artists/kristen-klepak.jpg",
-      bio: "Kristen creates thoughtful custom work in a calm, collaborative appointment experience.",
+      bio: "Kristen creates vibrant illustrative tattoos shaped by fantasy, horror, and dark whimsy. Her pieces lean bold, expressive, and full of character.",
       specialties: ["Custom tattoos", "All styles", "Intuitive tattoos"],
       instagram: "https://www.instagram.com/kristen_x_tattoos",
       bookingUrl: "https://bookedin.com/book/ruby-tattoo",
@@ -79,7 +79,7 @@ export const siteData = {
       slug: "lorenzo-diaz",
       role: "Tattoo Artist",
       photo: "/artists/lorenzo-diaz.jpg",
-      bio: "Lorenzo brings a steady hand and bold visual instincts to custom tattoo projects.",
+      bio: "Lorenzo creates bold illustrative tattoos that move between colorful pop-driven pieces and detailed black and grey designs. His work stands out for strong composition, clean linework, and confident execution.",
       specialties: ["Illustrative work", "Animation", "Cover-ups"],
       instagram: "https://www.instagram.com/lorenz2573",
       bookingUrl: "https://bookedin.com/book/ruby-tattoo",
@@ -98,7 +98,7 @@ export const siteData = {
       slug: "gracy-minor",
       role: "Tattoo Artist",
       photo: "/artists/gracy-minor.png",
-      bio: "Gracy works with guests to shape personal ideas into elegant, lasting tattoos.",
+      bio: "Gracy focuses on fine line tattooing with a softer, more delicate feel. Her work is clean, thoughtful, and well suited to simple personal pieces with subtle detail.",
       specialties: ["Custom pieces", "Fine line", "Creepy art"],
       instagram: "https://www.instagram.com/tattoo_pariah",
       bookingUrl: "https://bookedin.com/book/ruby-tattoo",

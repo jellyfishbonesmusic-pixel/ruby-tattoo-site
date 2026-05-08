@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: ArtistPageProps) {
 
   return {
     title: artist ? `${artist.name} | Ruby Tattoo` : "Artist | Ruby Tattoo",
-    description: artist ? `${artist.name}'s Ruby Tattoo portfolio.` : "Ruby Tattoo artist portfolio."
+    description: artist ? `Selected tattoo work by ${artist.name} at Ruby Tattoo.` : "Selected tattoo work from Ruby Tattoo."
   };
 }
 
@@ -73,7 +73,9 @@ export default async function ArtistPage({ params }: ArtistPageProps) {
         </section>
 
         <section className="section-shell py-16">
-          <SectionHeading eyebrow="Portfolio" title={`${artist.name}'s Work`} />
+          <SectionHeading eyebrow="Portfolio" title="Selected Work">
+            By {artist.name}
+          </SectionHeading>
           <PortfolioGrid
             images={artist.portfolio.map((image) => ({
               ...image,

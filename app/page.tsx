@@ -49,7 +49,7 @@ export default function Home() {
               <div>
                 <p className="mb-3 text-sm font-bold uppercase tracking-[0.28em] text-[#c7a45d]">The Parlor</p>
                 <h2 className="font-display text-4xl font-semibold text-[#fff4df] sm:text-5xl">
-                  Antique warmth, custom work, and a welcoming atmosphere.
+                  Tattooing With Character.
                 </h2>
               </div>
               <div className="space-y-5 text-2xl leading-9 text-[#f2e4cf]/78">
@@ -64,7 +64,7 @@ export default function Home() {
         <OrnamentalDivider />
 
         <section className="section-shell py-20 sm:py-24">
-          <SectionHeading eyebrow="Why Ruby Tattoo" title="Warm, Skilled, A Little Strange" />
+          <SectionHeading eyebrow="Why Ruby Tattoo" title="The Ruby Experience" />
           <div className="grid gap-5 md:grid-cols-3">
             {siteData.whyRuby.map((item) => (
               <article key={item.title} className="ornate-panel rounded-sm p-7 text-center transition duration-300 hover:-translate-y-1 hover:border-[#c7a45d]/75 hover:shadow-[0_24px_80px_rgba(199,164,93,0.1)]">
@@ -79,8 +79,8 @@ export default function Home() {
         <OrnamentalDivider />
 
         <section id="artists" className="section-shell py-20 sm:py-24">
-          <SectionHeading eyebrow="Artists" title="Meet the Artists">
-            Choose the artist whose style fits your idea, or book a consultation and let the shop help guide the match.
+          <SectionHeading eyebrow="Artists" title="The Artists">
+            Skilled tattoo artists, each with a distinct style and approach.
           </SectionHeading>
           <div className="grid gap-6 lg:grid-cols-3">
             {siteData.artists.map((artist) => (
@@ -105,7 +105,7 @@ export default function Home() {
             <p className="mb-3 text-sm font-bold uppercase tracking-[0.28em] text-[#c7a45d]">Appointments</p>
             <h2 className="font-display text-4xl font-semibold text-[#fff4df] sm:text-5xl">Book Appointment</h2>
             <p className="mx-auto mt-5 max-w-2xl text-2xl leading-9 text-[#f2e4cf]/78">
-              Ready to start your next tattoo or ask about availability?
+              Start your next piece or reach out about availability.
             </p>
             <a
               href={siteData.business.bookingUrl}
