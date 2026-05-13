@@ -60,7 +60,7 @@ export const siteData = {
       slug: "kristen-klepak",
       role: "Owner / Tattoo Artist",
       photo: "/artists/kristen-klepak.jpg",
-      bio: "Kristen creates vibrant illustrative tattoos shaped by fantasy, strange, and dark whimsy. proficant in black and grey, realism, multi award winning color artist.Her pieces lean bold, expressive, and full of character.",
+      bio: "Kristen creates vibrant illustrative tattoos inspired by fantasy, the strange, and dark whimsy. She is proficient in black and grey realism and is an award-winning color artist. Her work is bold, expressive, and full of character, blending technical precision with imaginative storytelling.",
       specialties: ["Custom tattoos", "All styles", "Intuitive tattoos"],
       instagram: "https://www.instagram.com/kristen_x_tattoos",
       bookingUrl: "https://bookedin.com/book/ruby-tattoo",
